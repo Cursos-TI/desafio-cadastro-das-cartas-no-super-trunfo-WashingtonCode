@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include <stdio.h> // Inclui a biblioteca para usar a função printf
+#include <string.h> // Necessário para strcspn
 
 // Desafio Super Trunfo - Países (nível novato)
 // Tema 1 - Cadastro das Cartas
+//Teste Washington Melo
 
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
