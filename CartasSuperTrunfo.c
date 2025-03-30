@@ -3,7 +3,7 @@
 
 // Desafio Super Trunfo - Países (nível novato)
 // Tema 1 - Cadastro das Cartas
-//Teste Washington Melo
+// by Washington Melo
 
 int main() {
     //Declaração de variáveis
@@ -53,6 +53,8 @@ int main() {
     printf("Área: %.2f KM²\n", area);
     printf("PIB: %.2f bilhões de reais\n", pib);
     printf("Número de pontos turísticos: %d\n", pontosturisticos);
+    printf("Densidade populacional: %.2f hab/KM²\n", densidadepopulacional);
+    printf("PIB per capita: %.2f reais\n", pibpercapita);
 
     // Entrada e saída de dados com printf e scanf - 2ª carta (interações com o usuário)
     
@@ -95,6 +97,8 @@ int main() {
     printf("Área: %.2f KM²\n", area);
     printf("PIB: %.2f bilhões de reais\n", pib);
     printf("Número de pontos turísticos: %d\n", pontosturisticos);
+    printf("Densidade populacional: %.2f hab/KM²\n", densidadepopulacional);
+    printf("PIB per capita: %.2f reais\n", pibpercapita);
 
     return 0;
 }
