@@ -10,7 +10,7 @@ int main() {
 
     char estado[5], codigodacarta[10], cidade[50]; // Variáveis do tipo caractere
     int populacao, pontosturisticos; // Variáveis do tipo inteiro
-    float area, pib; // Variáveis de ponto flutuante
+    float area, pib, densidadepopulacional, pibpercapita; // Variáveis de ponto flutuante
 
     // Entrada e saída de dados com printf e scanf - 1ª carta (interações com o usuário)
     
