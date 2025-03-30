@@ -1,7 +1,7 @@
 #include <stdio.h> // Inclui a biblioteca para usar a função printf
 #include <string.h> // Necessário para strcspn
 
-// Desafio Super Trunfo - Países (nível novato)
+// Desafio Super Trunfo - Países (nível Aventureiro)
 // Tema 1 - Cadastro das Cartas
 // by Washington Melo
 
