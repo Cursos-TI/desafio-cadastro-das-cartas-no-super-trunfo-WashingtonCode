@@ -37,7 +37,13 @@ int main() {
     printf("Digite a quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &pontosturisticos);
 
-    // Apresentação dos dados da 1ª carta (inseridos pelo usuário)
+    // Cálculo da densidade populacional e PIB per capita da 1ª carta
+    densidadepopulacional = (float) populacao / area; // Utilizando casting explícito para evitar divisão inteira
+    pibpercapita = pib / (float) populacao; // Utilizando casting explícito para evitar divisão inteira
+
+    pib = pib / 1000000000; // Converte PIB para bilhões de reais
+
+    // Printando na tela os dados da 1ª carta (inseridos pelo usuário)
 
     printf("Carta 1\n");
     printf("Estado: %s\n", estado);
@@ -73,7 +79,13 @@ int main() {
     printf("Digite a quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &pontosturisticos);
 
-    // Apresentação dos dados da 2ª carta (inseridos pelo usuário)
+    // Cálculo da densidade populacional e PIB per capita da 2ª carta
+    densidadepopulacional = (float) populacao / area; // Utilizando casting explícito para evitar divisão inteira
+    pibpercapita = pib / (float) populacao; // Utilizando casting explícito para evitar divisão inteira
+
+    pib = pib / 1000000000; // Converte PIB para bilhões de reais
+
+    // Printando na tela os dados da 2ª carta (inseridos pelo usuário)
 
     printf("Carta 2\n");
     printf("Estado: %s\n", estado);
